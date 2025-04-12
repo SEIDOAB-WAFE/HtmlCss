@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media Query Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: green;
+      }
+      img {
+        width: 50%;
+      }
+      @media screen and (min-width: 768px) {
+        body {
+          background-color: yellow;
+        }
+      }
+      @media screen and (min-width: 960px) {
+        body {
+          background-color: orange;
+        }
+        img {
+          width: 50%;
+          padding-top: 10px;
+        }
+        p {
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img/scones.jpg" alt="Incredible scones" />
+    <p>Alright, goodie goodie</p>
+    <img src="img/sconesLowRes.png" alt="Incredible scones" />
+    <p>I'd like to try one now.</p>
+
+ </body>
+</html>
+<!--  Exercise: 
+      1. Play with img {...} min-width, max-with, height, min-height, max-height, note difference between hiRes and LowRes image
+      2. Change code so images are only visible in the largest viewport, hint use display:none, display:block
+      4. Add <p> tags after each img and add some text
+      3. use CSS properties display and vertical-align  to have the text in the <p> tags 
+        under the image for small viewports and next to the img for larger viewports
+-->
