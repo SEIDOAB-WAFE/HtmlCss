@@ -16,16 +16,6 @@ body {
 	width:10vw;
 	height:100vh
 }
-
-@media (orientation: landscape){
-	.MenuWrap {
-		flex-direction: row;	/* makes flexbox change the direction */
-		align-items: center;
-
-		height: 2.75rem;
-		width: 100vw;
-	}
-}
 .ListItem, .LastItem {
 	display: flex;
 	color:#ebebeb;
@@ -40,6 +30,14 @@ body {
 }
 
 @media (orientation: landscape){
+	.MenuWrap {
+		flex-direction: row;	/* makes flexbox change the direction */
+		align-items: center;
+
+		height: 2.75rem;
+		width: 100vw;
+	}
+
 	.ListItem {
 		margin:unset;
 		margin-right: 1rem;		/* changed to move the last item to the far right */

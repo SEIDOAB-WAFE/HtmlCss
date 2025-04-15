@@ -12,21 +12,21 @@
   </head>
   <body>
     <div class="container" id="home">
-      
+
+        <!-- debug section -->
+      <section class="bg-warning d-none">
+        <h1 class="d-sm-none">Break: Extra small</h1>
+        <h1 class="d-none d-sm-block d-md-none">Break sm: Small</h1>
+        <h1 class="d-none d-md-block d-lg-none">Break md: Medium</h1>
+        <h1 class="d-none d-lg-block d-xl-none">Break lg: Large</h1>
+        <h1 class="d-none d-xl-block d-xxl-none">Break xl: Extra large</h1>
+        <h1 class="d-none d-xxl-block">Break xxl: Extra extra large</h1>
+      </section>
+
       <h1>Hello, world!</h1>
       <h2>Bootstrap starter template</h2>
 
-      <div class="d-flex flex-wrap justify-content-between">
-
-        <!-- debug section -->
-        <section class="bg-warning d-none">
-          <h1 class="d-sm-none">Break: Extra small</h1>
-          <h1 class="d-none d-sm-block d-md-none">Break sm: Small</h1>
-          <h1 class="d-none d-md-block d-lg-none">Break md: Medium</h1>
-          <h1 class="d-none d-lg-block d-xl-none">Break lg: Large</h1>
-          <h1 class="d-none d-xl-block d-xxl-none">Break xl: Extra large</h1>
-          <h1 class="d-none d-xxl-block">Break xxl: Extra extra large</h1>
-        </section>
+      <div id="imageBackground" class="d-flex flex-wrap justify-content-between">
 
         <div class="card" style="width: 18rem;">
           <img src="../img/img1.png" class="card-img-top" alt="...">
@@ -72,6 +72,40 @@
 
     <!-- Bootstrap Javascript -->
     <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script>
+      console.log("Hello");
+
+      let bg = document.querySelector("#imageBackground");
+      bg.addEventListener("click", (e) => 
+      {
+        console.log("Image background clicked");
+      })
+      console.log(bg);
+
+      document.querySelectorAll("img").forEach(img => {
+        img.addEventListener("click", (e) =>
+         {
+          e.stopPropagation();
+
+          console.log(e.target.src);
+         });
+      });
+
+      /*
+      let img = document.querySelectorAll("img");
+      for (const img of imgs) {
+
+        img.addEventListener("click", (e) =>
+         {
+          e.stopPropagation();
+
+          console.log(e.target.src);
+         });
+      }
+      */
+    </script>
+
   </body>
 </html>
 
