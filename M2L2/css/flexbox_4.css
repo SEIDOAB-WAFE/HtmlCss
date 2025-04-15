@@ -41,5 +41,5 @@ body {
 }
 .Blue {
   background: steelblue;
-  align-self: flex-start;     /* to move this item to the bottom of the flexbox */
+  align-self: flex-end;     /* to move this item to the bottom of the flexbox */
 }
