@@ -8,7 +8,7 @@
     grid-template-areas:
       'header header header header header header'
       'side1 main main main main main'
-      'side1 footer footer footer footer footer';
+      'footer footer footer footer footer footer';
   }
 
   [class^='GridItem'] {
