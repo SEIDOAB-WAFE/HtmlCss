@@ -134,7 +134,7 @@ a:hover
     background:linear-gradient(to right, #9CAFAA, #D6DAC8);
   }
   
-  .GridItemSideOne {
+  .GridItemSideBarLeft {
     grid-area: side1;
     background-color: #9CAFAA;
   }

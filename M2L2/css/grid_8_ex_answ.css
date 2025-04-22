@@ -42,12 +42,12 @@
   background-color: red;
 }
 
-.GridItemSideOne {
+.GridItemSideBarLeft {
   grid-area: side1;
   background-color: green
 }
 
-.GridItemSideTwo {
+.GridItemSideBarRight {
   grid-area: side2;
   background-color: yellow;
 }

@@ -10,6 +10,14 @@
   /*grid-auto-flow: row;*/                 /* change flow: row column  */
 }
 
+/* 
+@media (orientation: landscape) {
+  .my-first-grid {
+    grid-auto-flow: column;  
+  }
+}
+*/
+
 .grid-item-1 {
   grid-row: 1;
   grid-column: 1;

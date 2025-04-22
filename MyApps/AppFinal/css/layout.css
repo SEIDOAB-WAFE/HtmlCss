@@ -82,7 +82,7 @@ a:hover
     background:linear-gradient(to right, var(--color2), var(--color3));
   }
   
-  .GridItemSideOne {
+  .GridItemSideBarLeft {
     grid-area: side1;
     background-color: var(--color2);
   }

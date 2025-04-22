@@ -125,7 +125,7 @@ a:hover
     background-color: red;
   }
   
-  .GridItemSideOne {
+  .GridItemSideBarLeft {
     grid-area: side1;
     background-color: green
   }
