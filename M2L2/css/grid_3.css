@@ -4,9 +4,10 @@
   grid-gap: 20px;
   grid-template-rows: 200px 200px;
   grid-template-columns: 200px 200px;
-  grid-auto-rows: 50px 100px;             /* repeated pattern of row height when adding rows */ 
-  grid-auto-columns: 50px 100px;          /* repeated pattern of column with when adding rows */ 
-  grid-auto-flow: row;                 /* change flow: row column  */
+
+  /*grid-auto-rows: 50px 100px;*/             /* repeated pattern of row height when adding rows */ 
+  /*grid-auto-columns: 50px 100px;*/          /* repeated pattern of column with when adding cols */ 
+  /*grid-auto-flow: row;*/                 /* change flow: row column  */
 }
 
 .grid-item-1 {

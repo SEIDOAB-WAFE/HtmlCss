@@ -1,5 +1,5 @@
 .my-first-grid {
-  display: inline-grid;                 /* Pretty grid: change to inline-grid */
+  display: grid;                 /* Pretty grid: change to inline-grid */
   grid-gap: 20px;
   grid-template-rows: 200px 200px;
   grid-template-columns: 200px 200px;
@@ -30,7 +30,9 @@
   outline: 3px dashed #f90;
   font-size: 30px;
   color: #333;
-  display: grid;                    /* Pretty grid: set to grid */
-  justify-content: center;          /* Pretty grid: set to center along  main axis */
-  align-items: center;              /* Pretty grid: set to center along  cross axis */
+  
+  /*display: grid; */                   /* Pretty grid: set to grid */
+  /*justify-content: center;*/          /* Pretty grid: set to center along  main axis */
+  /*align-items: center; */             /* Pretty grid: set to center along  cross axis */
+  
 }
