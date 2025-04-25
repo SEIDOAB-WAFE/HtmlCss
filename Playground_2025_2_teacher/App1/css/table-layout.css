@@ -11,7 +11,7 @@
 
 [class^='TableItem']:nth-child(4n+5)
 {
-        margin-top: 30px;;
+        margin-top: 30px;
 }
 
 @media (orientation: landscape){
@@ -23,7 +23,7 @@
     
     [class^='TableItem']:nth-child(4n+5)
     {
-        margin-top: 0px;;
+        margin-top: 0px;
     }
 }
 
