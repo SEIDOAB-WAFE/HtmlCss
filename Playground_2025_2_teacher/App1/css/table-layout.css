@@ -9,11 +9,21 @@
     grid-auto-flow: row;   /* try row dense */
   }
 
+[class^='TableItem']:nth-child(4n+5)
+{
+        margin-top: 30px;;
+}
+
 @media (orientation: landscape){
 .TableContainer {
     grid-template-columns: 2fr repeat(3, 1fr);
     grid-auto-rows: 100px;
     grid-auto-flow: row;   /* try row dense */
+    }
+    
+    [class^='TableItem']:nth-child(4n+5)
+    {
+        margin-top: 0px;;
     }
 }
 
@@ -24,5 +34,3 @@
     align-items: center;
     justify-content: center;
 }
-
-
