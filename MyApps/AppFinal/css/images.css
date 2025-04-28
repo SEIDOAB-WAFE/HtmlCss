@@ -30,10 +30,6 @@
   border-radius: 10px;
 }
 
-.FlexItem:nth-child(even) {
-  border: solid var(--color2);
-}
-
 .FlexWrap>p {
   padding: 5px;
 }
