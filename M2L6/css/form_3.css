@@ -16,6 +16,7 @@ fieldset {
 
 .formContainer {
   padding: 10px;
+  background-color: #cc3232;
 }
 
 fieldset + fieldset {
@@ -26,6 +27,7 @@ fieldset + fieldset {
   .formContainer {
     max-width: 750px;
     margin: 0 auto;
+    background-color: #739328;
   }
 }
 

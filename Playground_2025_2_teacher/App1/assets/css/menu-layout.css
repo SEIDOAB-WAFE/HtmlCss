@@ -1,6 +1,6 @@
 .MenuWrap {
     color: #ebebeb;
-    font-family: 'Oswald', sans-serif;
+    font-family: var (--FontSet2);
     font-size: 1rem;
     display: flex;
   }

@@ -1,7 +1,7 @@
 .TableContainer {
     padding: 10px;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: var(--FontCustom);
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr;
