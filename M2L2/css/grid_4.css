@@ -1,0 +1,24 @@
+.container {
+  font-size: 28px;
+  font-family: sans-serif;
+  display: grid;
+  grid-gap: 10px;
+  background-color: #ddd;
+  grid-template-columns: repeat(3, 1fr);  /*try  repeat(2, 1fr) 2fr; */
+  grid-auto-rows: 100px;  /* note no grid-template-rows */
+  grid-auto-flow: row;
+}
+
+
+[class^='grid-item'] {
+  outline: 1px #f90 dashed;
+  display: grid;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* try changing [class^='grid-item'] to .container div 
+   and remove class='grid-item'*/
+

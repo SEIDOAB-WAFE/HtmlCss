@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      #album
+      {
+        display: flex;
+        border: 2px black solid;
+        justify-content:space-between;
+      }
+      #album div
+      {
+        border: 2px black solid;
+        padding: 1rem;
+        margin: 1rem;
+        width: 20%;
+      }
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- debug section -->
+    <section class="bg-warning">
+      <h1 class="d-sm-none">Break: Extra small</h1>
+      <h1 class="d-none d-sm-block d-md-none">Break sm: Small</h1>
+      <h1 class="d-none d-md-block d-lg-none">Break md: Medium</h1>
+      <h1 class="d-none d-lg-block d-xl-none">Break lg: Large</h1>
+      <h1 class="d-none d-xl-block d-xxl-none">Break xl: Extra large</h1>
+      <h1 class="d-none d-xxl-block">Break xxl: Extra extra large</h1>
+    </section>
+
+    <h1>Hello, world!</h1>
+    <h2>Bootstrap starter template</h2>
+
+    <div id="album">
+
+      <div class="d-block" style="background-color: aquamarine;">
+
+        <picture>
+          <!-- Make sure the min-width is in descending order-->
+          <source media="(min-width: 992px)" srcset="../img/jupiter5.jpg"/>
+          <source media="(min-width: 768px)" srcset="../img/jupiter4.png"/>
+          <img src="../img/jupiter1.jpg" width="25%" class="img-thumbnail">
+        </picture>
+
+        <p>This is image jupiter 1</p>
+      </div>
+
+      <div class="d-none d-md-block" style="background-color:brown">
+        <img src="../img/jupiter2.jpg" width="25%" class="img-thumbnail">
+        <p>This is image jupiter 2</p>
+      </div>
+
+      <div class="d-none d-lg-block" style="background-color: aquamarine;">
+        <img src="../img/jupiter3.jpg" width="25%" class="img-thumbnail">
+        <p>This is image jupiter 3</p>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Bootstrap Javascript -->
+      <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+
+
+
+<!-- Exercise
+ 1. In Play2 create a new bs start template
+ - Create three div tags, each with a  jupiter image and a p tag with some text
+ - image width should be 100%
+
+ - use bs breakpoints  https://getbootstrap.com/docs/5.3/layout/breakpoints/
+   with d-none and d-??-block to make sure only one image and p tag is visible in
+   small screens. Then as screens grow, more images becomes visible.
+
+ - change image with to 25%
+
+-->
