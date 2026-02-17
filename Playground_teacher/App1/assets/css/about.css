@@ -1,0 +1,19 @@
+body{
+  background-color: #dad7cd;
+  padding: 50px;
+} 
+
+h1 { 
+  text-align: center;
+  margin: 10px;
+}
+h2 { 
+  text-align: end;
+  margin: 10px;
+}
+
+.About {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
