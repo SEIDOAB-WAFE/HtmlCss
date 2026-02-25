@@ -9,10 +9,68 @@
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <title>Hello, world!</title>
+
+    <style>
+      [class^="col"] {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <h2>Bootstrap starter template</h2>
+    <div class="container" id="home">
+        <!-- debug section -->
+      <section class="bg-warning">
+        <h1 class="d-sm-none">Break: Extra small</h1>
+        <h1 class="d-none d-sm-block d-md-none">Break sm: Small</h1>
+        <h1 class="d-none d-md-block d-lg-none">Break md: Medium</h1>
+        <h1 class="d-none d-lg-block d-xl-none">Break lg: Large</h1>
+        <h1 class="d-none d-xl-block d-xxl-none">Break xl: Extra large</h1>
+        <h1 class="d-none d-xxl-block">Break xxl: Extra extra large</h1>
+      </section>
+      <h1>Hello, world!</h1>
+      <h2>Bootstrap starter template</h2>
+
+      <div class="row text-center">
+        <div class="col col-md-4">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          1 of 3
+        </div>
+        <div class="col">
+          2 of 3
+        </div>
+        <div class="col">
+          3 of 3
+        </div>
+      </div>
+      <div id="imageBackground" class="d-flex flex-wrap justify-content-between">
+<div class="card" style="width: 18rem;">
+  <img src="../img/bear.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../img/bear.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+    </div>
 
       <!-- Bootstrap Javascript -->
       <script src="../bootstrap/js/bootstrap.bundle.js"></script>
