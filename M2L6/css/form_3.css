@@ -176,7 +176,7 @@ textarea {
   border: 1px solid #739328;
 }
 
-.form-Submit_Btn:hover .flipper-vertical,
-.form-Submit_Btn:focus .flipper-vertical {
-  transform: rotateX(180deg);
+.form-Submit_Btn:hover  {
+  background-color: steelblue;
+  color: #fff;
 }
