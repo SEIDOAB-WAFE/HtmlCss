@@ -70,7 +70,8 @@
             </div>
             <div>
                 <label for="favoriteColor">What is you favorite color?</label>
-                <input id="favoriteColor" name="favoriteColor" type="color" />
+                <input id="favoriteColor" name="favoriteColor" type="color" 
+                onchange="showValue(this.value)"/>
             </div>
         </fieldset>
 
@@ -84,7 +85,8 @@
             </div>
             <div>
                 <label for="personBirthDate">When were you born?</label>
-                <input id="personBirthDate" class="personBirthDate" type="date" name="personBirthDate" />
+                <input id="personBirthDate" class="personBirthDate" type="date" name="personBirthDate"
+                onchange="showValue(this.value)" />
             </div>
             <div>
                 <label for="personPhone">What is your phonenumber?</label>
@@ -101,3 +103,13 @@
 </body>
 
 </html>
+
+<!--
+
+Exercises:
+1. Add onchange="showValue(this.value)" to the input element with id="favoriteColor". What happens?
+2. Can you modify so that the color value is shown in a span element with id="colorValue"?
+3. Add onchange="showValue(this.value)" to the input element with id="personBirthDate". What happens?
+4. Can you modify so that the birth date value is shown in a span element with id="birthDateValue"?
+
+-->
