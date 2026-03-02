@@ -96,6 +96,11 @@
     padding-right: 10px;
   }
 
+  .ListItem:hover, .LastItem:hover {
+    transform: scale(1.20);
+  }
+    
+
 /*DEBUG */
 /*
   [class^='GridItem'] {

@@ -24,7 +24,7 @@ body {
   padding: 5px;
 }
 
-.trFluid:nth-child(even) {
+.tbodyFluid .trFluid:nth-child(even) {
   background-color: lightgray;
 }
 
@@ -144,5 +144,10 @@ body {
 .trFluid:not(.header){
   border: 1px solid blue;
   margin: 2px;
+}
+
+.tdFluent{
+  background-color: grey;
+  border: 1px solid white;
 }
 */
