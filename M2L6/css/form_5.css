@@ -151,7 +151,6 @@ input:required:valid + label:after {
   color: green;
 }
 
-/*Submit button flipper*/
 .form-Submit_Btn {
   appearance: none;
   border: 0;
@@ -162,49 +161,7 @@ input:required:valid + label:after {
   font-size: 1rem;
 }
 
-.flipper {
-  perspective: 400px;
-  position: relative;
-  width: 300px;
-  height: 44px;
-  display: block;
-}
-
-.flipper-object {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.panel {
-  display: flex;
-  min-height: 44px;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.flipper-vertical .back {
-  transform: rotateX(180deg);
-}
-
-.back {
-  background-color: #739328;
+.form-Submit_Btn:hover  {
+  background-color: steelblue;
   color: #fff;
-}
-
-.front {
-  border: 1px solid #739328;
-}
-
-.form-Submit_Btn:hover .flipper-vertical,
-.form-Submit_Btn:focus .flipper-vertical {
-  transform: rotateX(180deg);
 }
